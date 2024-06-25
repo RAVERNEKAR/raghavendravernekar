@@ -1,30 +1,24 @@
-/**
-* Template Name: iPortfolio - v3.5.0
-* Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Open Sans", sans-serif;
-  color: #272829;
+  font-family: "sohne-var", "Helvetica Neue", "Arial", sans-serif;
+  color: #2f3f4e;
 }
-
+p {font-size: larger; line-height: 30px;}
 a {
-  color: #149ddd;
+  color: var(--bs-indigo);
   text-decoration: none;
 }
 
 a:hover {
-  color: #37b3ed;
+  color: var(--bs-indigo);
   text-decoration: none;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Raleway", sans-serif;
+  font-family: "sohne-var", "Helvetica Neue", "Arial", sans-serif;
 }
 
 .radius {border-radius: 15px;}
@@ -39,8 +33,8 @@ h1, h2, h3, h4, h5, h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #149ddd;
-  width: 40px;
+  background: var(--bs-indigo);
+  width: 40px; 
   height: 40px;
   border-radius: 50px;
   transition: all 0.4s;
@@ -378,7 +372,7 @@ section {
 .skills .progress .skill {
   padding: 0;
   margin: 0 0 6px 0;
-  text-transform: uppercase;
+  text-transform: capitalize;
   display: block;
   font-size: 18px;
   font-weight: 600;
@@ -397,7 +391,7 @@ section {
   width: 1px;
   height: 2px;
   transition: 0.9s;
-  background-color: #149ddd;
+  background-color: var(--bs-indigo);
 }
 
 /*--------------------------------------------------------------
@@ -451,7 +445,7 @@ section {
   left: -9px;
   top: 0;
   background: #fff;
-  border: 2px solid #149ddd;
+  border: 2px solid var(--bs-indigo);
 }
 
 /*--------------------------------------------------------------
@@ -561,7 +555,7 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #149ddd;
+  border: 1px solid var(--bs-indigo);
 }
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
   background-color: #149ddd;
@@ -722,6 +716,57 @@ section {
   background-color: #149ddd;
 }
 
+.behance i {
+  font-size: 40px;
+  color: #ffffff;
+  float: left;
+  width: 54px;
+  height: 54px;
+  background: #053eff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  transition: all 0.3s ease-in-out;
+}
+.behance h4 {
+  padding: 0 0 0 64px;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 0px;
+  color: #050d18;
+}
+.behance p {
+  padding: 0 0 0px 64px;
+  font-size: 18px;
+  color: #173b6c;
+}
+
+.linkdin i {
+  font-size: 40px;
+  color: #ffffff;
+  float: left;
+  width: 54px;
+  height: 54px;
+  background: #0077B5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  transition: all 0.3s ease-in-out;
+}
+.linkdin h4 {
+  padding: 0 0 0 64px;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 0px;
+  color: #050d18;
+}
+.linkdin p {
+  padding: 0 0 0px 64px;
+  font-size: 18px;
+  color: #173b6c;
+}
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
@@ -752,12 +797,11 @@ section {
   padding: 0 0 0 60px;
   font-size: 22px;
   font-weight: 600;
-  margin-bottom: 5px;
+  margin-bottom: 0px;
   color: #050d18;
 }
 .contact .info p {
-  padding: 0 0 10px 60px;
-  margin-bottom: 20px;
+  padding: 0 0 0px 60px;
   font-size: 14px;
   color: #173b6c;
 }
