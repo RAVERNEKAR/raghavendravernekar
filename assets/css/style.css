@@ -21,6 +21,16 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "sohne-var", "Helvetica Neue", "Arial", sans-serif;
 }
 
+.about .about-intro h6 {
+  font-size: 18px;
+  line-height: 1;
+  color: #1877F2;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-bottom: 14px;
+  font-weight: 600;
+}
+
 .radius {border-radius: 15px;}
 
 /*--------------------------------------------------------------
@@ -110,6 +120,10 @@ h1, h2, h3, h4, h5, h6 {
 
 #main {
   margin-left: 300px;
+}
+
+.btn-group-lg>.btn, .btn-lg {
+  --bs-btn-padding-x: 2rem;
 }
 
 @media (max-width: 1199px) {
@@ -213,7 +227,7 @@ h1, h2, h3, h4, h5, h6 {
   min-width: 300px;
 }
 #hero h1 {
-  margin: 0 0 10px 0;
+  margin: 20px 0 20px 0;
   font-size: 64px;
   font-weight: 700;
   line-height: 56px;
@@ -451,6 +465,31 @@ section {
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+.swiper-pagination{margin-top: 30px;}
+.swiper-slide {
+  height: 450px;
+  border-radius: 20px;
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.swiper-pagination {position: unset;}
+
 .portfolio .portfolio-item {
   margin-bottom: 30px;
 }
@@ -589,6 +628,35 @@ section {
 }
 .portfolio-details .portfolio-description p {
   padding: 0;
+}
+
+@media(min-width: 768px) {
+	.card-portfolio .card-portfolio-meta {
+		opacity: 0;
+		transition: opacity .35s ease-in-out
+	}
+
+	.card-portfolio:hover .card-img>img {
+		transform: scale(1.05)
+	}
+}
+
+@media(min-width: 768px) {
+	.swiper-wrapper {
+		max-width: 100%
+	}
+
+	.swiper-wrapper .swiper-slide {
+		max-width: 100%
+	}
+
+  .swiper .swiper-wrapper .swiper-slide {
+		max-width: 100%
+	}
+
+  .swiper .swiper-wrapper .swiper-slide .swiper-slide-active {
+		max-width: 100%
+	}
 }
 
 /*--------------------------------------------------------------
