@@ -806,8 +806,9 @@ section {
 }
 .behance p {
   padding: 0 0 0px 64px;
-  font-size: 18px;
-  color: #173b6c;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--bs-indigo);
 }
 
 .linkdin i {
@@ -832,8 +833,9 @@ section {
 }
 .linkdin p {
   padding: 0 0 0px 64px;
-  font-size: 18px;
-  color: #173b6c;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--bs-indigo);
 }
 /*--------------------------------------------------------------
 # Contact
@@ -870,11 +872,12 @@ section {
 }
 .contact .info p {
   padding: 0 0 0px 60px;
-  font-size: 14px;
-  color: #173b6c;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--bs-indigo);
 }
 .contact .info .email p {
-  padding-top: 5px;
+  padding-top: 0px;
 }
 .contact .info .social-links {
   padding-left: 60px;
