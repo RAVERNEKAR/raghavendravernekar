@@ -1,41 +1,42 @@
 
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
-body {
-  font-family: "Inter", sans-serif;
-  color: #2f3f4e;
-}
+/*-GENERAL-*/
+body {font-family: "Inter", sans-serif; color: #2f3f4e;}
 p {font-size: larger; line-height: 30px;}
-a {
-  color: var(--bs-indigo);
-  text-decoration: none;
-}
+a {color: var(--bs-indigo); text-decoration: none;}
 
-a:hover {
-  color: var(--bs-indigo);
-  text-decoration: none;
-}
+.top-0 {top: 0 !important}
+.start-0 {left: 0 !important}
+.bottom-0 {bottom: 0 !important}
+.w-100 {width: 100% !important}
+.h-100 {height: 100% !important}
+.d-flex {display: flex !important}
+.zindex-1 {z-index: 1 !important}
+.zindex-2 {z-index: 2 !important}
+.p-4 {padding: 1.5rem !important}
+.text-white {color: #fff !important}
+.mb-0 {margin-bottom: 0 !important}
+.px-md-3 {padding-right: 1rem !important; padding-left: 1rem !important}
+.position-relative {position: relative !important}
+.d-block {display: block !important}
+.rounded-3 {border-radius: var(--si-border-radius-lg) !important}
+.overflow-hidden {overflow: hidden !important}
+.position-absolute {position: absolute !important}
+.align-items-center {align-items: center !important}
+.justify-content-between {justify-content: space-between !important}
+.fs-xs {font-size: 0.75rem !important}
+.text-truncate {overflow: hidden; text-overflow: ellipsis; white-space: nowrap}
+.opacity-70 {opacity: .7 !important}
+.pe-3 {padding-right: 1rem !important}
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: "Inter", sans-serif;
-}
+a:hover {color: var(--bs-indigo); text-decoration: none;}
 
-.about .about-intro h6 {
-  font-size: 18px;
-  line-height: 1;
-  color: var(--bs-indigo);
-  text-transform: uppercase;
-  letter-spacing: 3px;
-  margin-bottom: 14px;
-  font-weight: 600;
-}
+h1, h2, h3, h4, h5, h6 {font-family: "Inter", sans-serif;}
+
+.about .about-intro h6 {font-size: 18px; line-height: 1; color: var(--bs-indigo); text-transform: uppercase; letter-spacing: 3px; margin-bottom: 14px; font-weight: 600;}
 
 .radius {border-radius: 15px;}
 
-/*--------------------------------------------------------------
-# Back to top button
---------------------------------------------------------------*/
+/*-Back to top button-*/
 .back-to-top {
   position: fixed;
   visibility: hidden;
@@ -63,9 +64,7 @@ h1, h2, h3, h4, h5, h6 {
   opacity: 1;
 }
 
-/*--------------------------------------------------------------
-# Header
---------------------------------------------------------------*/
+/*-HEADER-*/
 #header {
   position: fixed;
   top: 0;
@@ -136,9 +135,7 @@ h1, h2, h3, h4, h5, h6 {
     margin-left: 0;
   }
 }
-/*--------------------------------------------------------------
-# Navigation Menu
---------------------------------------------------------------*/
+/*-Navigation Menu-*/
 /* Desktop Navigation */
 .nav-menu {
   padding: 30px 0 0 0;
@@ -203,9 +200,7 @@ h1, h2, h3, h4, h5, h6 {
   left: 0;
 }
 
-/*--------------------------------------------------------------
-# Hero Section
---------------------------------------------------------------*/
+/*-Hero Section-*/
 #hero {
   width: 100%;
   height: 100vh;
@@ -263,9 +258,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-/*--------------------------------------------------------------
-# Sections General
---------------------------------------------------------------*/
+/*-Sections General-*/
 section {
   padding: 60px 0;
   overflow: hidden;
@@ -300,9 +293,7 @@ section {
   margin-bottom: 0;
 }
 
-/*--------------------------------------------------------------
-# About
---------------------------------------------------------------*/
+/*-About-*/
 .about .content h3 {
   font-weight: 700;
   font-size: 26px;
@@ -330,9 +321,7 @@ section {
   margin-bottom: 0;
 }
 
-/*--------------------------------------------------------------
-# Facts
---------------------------------------------------------------*/
+/*-Facts-*/
 .facts {
   padding-bottom: 30px;
 }
@@ -375,9 +364,7 @@ section {
   color: #1f5297;
 }
 
-/*--------------------------------------------------------------
-# Skills
---------------------------------------------------------------*/
+/*-Skills-*/
 .skills .progress {
   height: 60px;
   display: block;
@@ -409,9 +396,7 @@ section {
   background-color: var(--bs-indigo);
 }
 
-/*--------------------------------------------------------------
-# Resume
---------------------------------------------------------------*/
+/*-Resume-*/
 .resume .resume-title {
   font-size: 26px;
   font-weight: 700;
@@ -463,9 +448,7 @@ section {
   border: 2px solid var(--bs-indigo);
 }
 
-/*--------------------------------------------------------------
-# Portfolio
---------------------------------------------------------------*/
+/*-Portfolio-*/
 .swiper {
   width: 100%;
   height: 100%;
@@ -551,79 +534,6 @@ section {
 .card-portfolio .card-body {
   padding-right: 0;
   padding-left: 0;
-}
-
-.top-0 {
-  top: 0 !important
-}
-.start-0 {
-  left: 0 !important
-}
-.bottom-0 {
-  bottom: 0 !important
-}
-.w-100 {
-  width: 100% !important
-}
-.h-100 {
-  height: 100% !important
-}
-.d-flex {
-  display: flex !important
-}
-.zindex-1 {
-  z-index: 1 !important
-}
-.zindex-2 {
-  z-index: 2 !important
-}
-.p-4 {
-  padding: 1.5rem !important
-}
-.text-white {
-  color: #fff !important
-}
-.mb-0 {
-  margin-bottom: 0 !important
-}
-.px-md-3 {
-  padding-right: 1rem !important;
-  padding-left: 1rem !important
-}
-.position-relative {
-  position: relative !important
-}
-.d-block {
-  display: block !important
-}
-.rounded-3 {
-  border-radius: var(--si-border-radius-lg) !important
-}
-.overflow-hidden {
-  overflow: hidden !important
-}
-.position-absolute {
-  position: absolute !important
-}
-.align-items-center {
-  align-items: center !important
-}
-.justify-content-between {
-  justify-content: space-between !important
-}
-.fs-xs {
-  font-size: 0.75rem !important
-}
-.text-truncate {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap
-}
-.opacity-70 {
-  opacity: .7 !important
-}
-.pe-3 {
-  padding-right: 1rem !important
 }
 
 .card-img,
@@ -766,9 +676,7 @@ section {
   bottom: 0;
 }
 
-/*--------------------------------------------------------------
-# Portfolio Details
---------------------------------------------------------------*/
+/*-PORTFOLIO DETAILS-*/
 .portfolio-details {
   padding-top: 40px;
 }
@@ -838,9 +746,7 @@ section {
 	}
 }
 
-/*--------------------------------------------------------------
-# Services
---------------------------------------------------------------*/
+/*-SERVICES-*/
 .services .icon-box {
   margin-bottom: 20px;
 }
@@ -885,9 +791,7 @@ section {
   font-size: 14px;
 }
 
-/*--------------------------------------------------------------
-# Testimonials
---------------------------------------------------------------*/
+/*-Testimonials-*/
 .testimonials .testimonials-carousel, .testimonials .testimonials-slider {
   overflow: hidden;
 }
@@ -1042,9 +946,7 @@ section {
   font-weight: 600;
   color: var(--bs-indigo);
 }
-/*--------------------------------------------------------------
-# Contact
---------------------------------------------------------------*/
+/*-CONTACT-*/
 .contact {
   padding-bottom: 130px;
 }
@@ -1207,9 +1109,7 @@ section {
   }
 }
 
-/*--------------------------------------------------------------
-# Breadcrumbs
---------------------------------------------------------------*/
+/*-BREADCRUMBS-*/
 .breadcrumbs {
   padding: 20px 0;
   background: #f9f9f9;
@@ -1247,9 +1147,7 @@ section {
   }
 }
 
-/*--------------------------------------------------------------
-# Footer
---------------------------------------------------------------*/
+/*-FOOTER-*/
 #footer {
   padding: 15px;
   color: #f4f6fd;
