@@ -130,7 +130,7 @@ h1, h2, h3, h4, h5, h6 {font-family: "Inter", sans-serif;}
   transition: 0.3s;
 }
 #header .profile .social-links a:hover {
-  background: #149ddd;
+  background: var(--bs-indigo);
   color: #fff;
   text-decoration: none;
 }
@@ -411,7 +411,7 @@ section {
   width: 1px;
   height: 2px;
   transition: 0.9s;
-  background-color: var(--bs-indigo);
+  background-color: #dce8f8;
 }
 
 /*-Resume-*/
@@ -457,13 +457,12 @@ section {
 .resume .resume-item::before {
   content: "";
   position: absolute;
-  width: 16px;
-  height: 16px;
+  width: .9rem;
+  height: .9rem;
   border-radius: 50px;
-  left: -9px;
+  left: -.5rem;
   top: 0;
-  background: #fff;
-  border: 2px solid var(--bs-indigo);
+  background: var(--bs-indigo);
 }
 
 /*-Portfolio-*/
@@ -885,12 +884,13 @@ section {
   background-color: #149ddd;
 }
 
+.behance {width: auto; display: block; background-color: #053eff;}
 .behance i {
-  font-size: 40px;
+  font-size: 2rem;
   color: #ffffff;
   float: left;
-  width: 54px;
-  height: 54px;
+  width: 3.2rem;
+  height: 3.2rem;
   background: #053eff;
   display: flex;
   justify-content: center;
@@ -900,7 +900,7 @@ section {
 }
 .behance h4 {
   padding: 0 0 0 64px;
-  font-size: 22px;
+  font-size: 1.2rem;
   font-weight: 600;
   margin-bottom: 0px;
   color: #050d18;
@@ -913,11 +913,11 @@ section {
 }
 
 .linkdin i {
-  font-size: 40px;
+  font-size: 2rem;
   color: #ffffff;
   float: left;
-  width: 54px;
-  height: 54px;
+  width: 3.2rem;
+  height: 3.2rem;
   background: #0077B5;
   display: flex;
   justify-content: center;
@@ -927,24 +927,23 @@ section {
 }
 .linkdin h4 {
   padding: 0 0 0 64px;
-  font-size: 22px;
+  font-size: 1.2rem;
   font-weight: 600;
   margin-bottom: 0px;
   color: #050d18;
 }
 .linkdin p {
   padding: 0 0 0px 64px;
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: 600;
   color: var(--bs-indigo);
 }
 .cv i {
-  font-size: 40px;
+  font-size: 1.4rem;
+  margin-right: .5rem;
+  vertical-align: middle;
   color: #ffffff;
   float: left;
-  width: 54px;
-  height: 54px;
-  background: #ffa62b;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -953,17 +952,23 @@ section {
 }
 .cv h4 {
   padding: 0 0 0 64px;
-  font-size: 22px;
+  font-size: 1.2rem;
   font-weight: 600;
   margin-bottom: 0px;
   color: #050d18;
 }
 .cv p {
   padding: 0 0 0px 64px;
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: 600;
   color: var(--bs-indigo);
 }
+
+.dark {background-color: #040b14;}
+h2.be, .li, .do {font-size: 3.4rem; font-weight: 800; display: inline-block; margin-right: 2rem;}
+.be {color: #053eff;}
+.li {color: #0077B5;}
+.do {color: #ffa62b;}
 
 /*-CONTACT-*/
 .contact {
@@ -1014,7 +1019,7 @@ section {
 }
 
 .contact .info-item {
-  padding: 24px;
+  padding: 1.4rem 0 1.4rem 0;
   background: #fff;
   width: 100%;
 }
@@ -1125,6 +1130,7 @@ section {
   .breadcrumbs ol li {
     display: inline-block;
   }
+  h2.be, .li, .do {font-size: 1.4rem; margin-right: .5rem;}
 }
 
 /*-FOOTER-*/
