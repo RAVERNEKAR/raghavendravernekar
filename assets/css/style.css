@@ -966,9 +966,12 @@ section {
 
 .dark {background-color: #040b14;}
 h2.be, .li, .do {font-size: 3.4rem; font-weight: 800; display: inline-block; margin-right: 2rem;}
-.be {color: #053eff;}
-.li {color: #0077B5;}
-.do {color: #ffa62b;}
+h2.be {color: #053eff;}
+a h2.be:hover {color: #3E6AFF; transition: 0.3s;}
+h2.li {color: #0077B5;}
+a h2.li:hover {color: #0098E7; transition: 0.3s;}
+h2.do {color: #FF9400;}
+a h2.do:hover {color: #ffa62b; transition: 0.3s;}
 
 /*-CONTACT-*/
 .contact {
